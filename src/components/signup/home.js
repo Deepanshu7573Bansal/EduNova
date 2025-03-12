@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 import logo from "../../assets/images/logo.png"
 import background from "../../assets/images/background.png"
 import frame from "../../assets/images/Frame.png"
@@ -14,24 +15,35 @@ function home(){
             </div>
             <div class="row">
                 <div class="col-sm">
+                <Link to="/login" style={{ textDecoration: "none", color: "black" }}>
                 <div class="btn1">
                  Login as Student
                 </div>
+                </Link>
+               
                 </div>
                 <div class="col-sm">
-                <div class="btn2">
+                    <Link to="/login" style={{ textDecoration: "none", color: "black" }}>
+                    <div class="btn2">
                     Login as Teacher
                 </div>
+                    </Link>
+               
                 </div>
-                <br/>
-                <br/>
                 </div>
                 <br/>
             <div class="row">
-            <div class="btn3">
+                <Link to="/login" style={{ textDecoration: "none", color: "black" }}>
+                <div class="btn3">
                     Login as Admin
                 </div>
+                </Link>
+           
             </div>
+            <Link to="/signup" >
+            <p>Not a member yet? Create account</p>
+            </Link>
+           
         </div>
             </div>
         <div class="col-5 vh-1030">

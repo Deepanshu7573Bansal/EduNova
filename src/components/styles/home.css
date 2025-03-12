@@ -29,15 +29,28 @@
   }
   
   .btn1, .btn2, .btn3{
+      margin-top:30px;
       background-color:transparent;
       border: 5px solid black;
       border-radius:15px;
+      text-decoration: none;
       color:black;
-      text-justify: auto;
       text-align: center;
       font-weight: 500;
-      width:470px;
+      width:250px;
       height:50px;
+      line-height:35px;
+      
+      cursor:pointer;
+  }
+
+
+  .btn1{
+    margin-left:-80px;
+  }
+
+  .btn3{
+    margin-left:80px;
   }
   
   .btn1:hover{
@@ -46,16 +59,21 @@
   }
 
   .btn2:hover{
-    background-color: #9b9bf3;
+    background-color: #2525ad;
     color:white;
 }
 
 .btn3:hover{
-    background-color: #9b9bf3;
+    background-color: #2525ad;
     color:white;
 }
   
   #pass{
       margin-top:20px;
       margin-left:300px;
+  }
+
+  p{
+    margin-top:20px;
+    margin-left:75px;
   }

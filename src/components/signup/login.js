@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 import logo from "../../assets/images/logo.png"
 import background from "../../assets/images/background.png"
 import frame from "../../assets/images/Frame.png"
@@ -28,7 +29,10 @@ function login(){
                <div class="btn">
                  Login
                 </div>
-               <p id="pass">Forgot Password?</p>
+                <Link to="/password">
+                <p id="pass">Forgot Password?</p>
+                </Link>
+               
             </form>
         </div>
             </div>

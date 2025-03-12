@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 import logo from "../../assets/images/logo.png"
 import background from "../../assets/images/background.png"
 import frame from "../../assets/images/Frame.png"
@@ -33,6 +34,9 @@ function password(){
                <div class="btn">
                  Change Password
                 </div>
+                 <Link to="/signup">
+                            <p>Not a member yet? Create account</p>
+                            </Link>
             </form>
         </div>
             </div>
