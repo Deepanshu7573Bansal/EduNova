@@ -1,2 +1,1 @@
 Project of Hackathon
-Project
