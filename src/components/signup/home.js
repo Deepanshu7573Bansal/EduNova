@@ -23,7 +23,8 @@ function home(){
                     Login as Teacher
                 </div>
                 </div>
-               
+                <br/>
+                <br/>
                 </div>
                 <br/>
             <div class="row">
