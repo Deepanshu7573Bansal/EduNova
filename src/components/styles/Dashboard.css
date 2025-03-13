@@ -1,0 +1,118 @@
+.heading {
+    font-family: Istok Web;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 100%;
+    letter-spacing: 0%;    
+    width: 331px;
+    height: 66px;
+    top: 23px;
+    left: 350px;
+    padding: 20px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background: #FFFAFA;
+    border-radius: 8px;
+    width: 446px;
+    height: 42px;
+    margin: 10px 0;
+}
+
+.text{
+    width: 156;
+    height: 14;
+    top: 93px;
+    left: 390px;
+    font-family: Istok Web;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #aeabab;
+}
+
+.search img {
+    width: 16.032499313354492;
+    height: 17.489999771118164;
+    top: 93px;
+    left: 372px;
+}
+
+.teachers, .student {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 12px;
+    width: 717px;
+    margin: auto;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    overflow-y: auto; 
+    max-height: 400px; 
+}
+
+.teachers {
+    margin-bottom: 28px;
+    margin-top: 28px;
+}
+
+.students {
+    margin-top: 28px; 
+}
+
+
+.teachers h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #fff;
+}
+
+.profile a {
+    display: block;
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+.profile a:hover {
+    text-decoration: underline;
+}
+
+.profile:nth-child(1) {
+    background: #b2fab4; 
+}
+
+.profile:nth-child(2) {
+    background: #f7c6c6; 
+}
+
+.profile:nth-child(3) {
+    background: #d4e0ff; 
+}
+
+.profile:nth-child(4) {
+    background: #f6e6a2; 
+}

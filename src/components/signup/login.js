@@ -8,7 +8,7 @@ import '../styles/login.css';
 function login(){
     return(
         <div class='row'>
-            <div class='col-5 vh-1030'>
+            <div class='col-5'>
             <div className="login-form">
             <div className="logo">
             <img src={logo} alt="Logo"/> EduNova

@@ -3,6 +3,9 @@ import SignUp from './components/signup/signup';
 import Login from './components/signup/login';
 import Password from './components/signup/password'
 import Starter from './components/signup/home'
+import Sidebar from './components/Sidebar/Sidebar'
+import Profile from './components/Profile/Profile'
+import Dashboard from './components/Dashboard/Dashboard';
 function App() {
   return (
     <Router>
