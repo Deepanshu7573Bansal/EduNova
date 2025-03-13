@@ -1,35 +1,34 @@
-*{
+body{
     background-color: #f5f4f7;
   }
   
   
   #Logo{
-  width:150 px;
-  height:156 px;
-  margin-left:-20px;
+  width:150px;
+  height:156px;
+  padding-left:-20px;
   }
   
   #back{
-      width: 546 px;
-      height:559 px;
-      margin-right:-100px;
+      width:546px;
+      height:559px;
+      padding-top:-100px;
   }
   
   .logo{
       font-weight: 900;
       font-size:45px;
-      margin-left:-50px;
+      padding-left:-50px;
   }
   
   .overlay{
-      position: relative;
-      background-color: transparent;
-      margin-top:-160%;
-      left:25%;
+    position: relative;
+    background-color: transparent;
+    margin-top:-150%;
+    left:25%;
   }
   
   .btn1, .btn2, .btn3{
-      margin-top:30px;
       background-color:transparent;
       border: 5px solid black;
       border-radius:15px;
@@ -40,17 +39,26 @@
       width:250px;
       height:50px;
       line-height:35px;
-      
       cursor:pointer;
   }
 
 
   .btn1{
-    margin-left:-80px;
+    position:relative;
+    top:20%;
+    right:20%;
+  }
+
+  .btn2{
+    position:relative;
+    top:-75%;
+    left:50%;
   }
 
   .btn3{
-    margin-left:80px;
+    position:relative;
+    left:15%;
+    bottom:60%;
   }
   
   .btn1:hover{
@@ -67,13 +75,9 @@
     background-color: #2525ad;
     color:white;
 }
-  
-  #pass{
-      margin-top:20px;
-      margin-left:300px;
-  }
 
   p{
-    margin-top:20px;
-    margin-left:75px;
+    position:relative;
+    top:20px;
+    left:50px;
   }
