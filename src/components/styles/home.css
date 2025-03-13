@@ -9,11 +9,6 @@ body{
   padding-left:-20px;
   }
   
-  #back{
-      width:546px;
-      height:559px;
-      padding-top:-100px;
-  }
   
   .logo{
       font-weight: 900;
@@ -45,7 +40,8 @@ body{
 
   .btn1{
     position:relative;
-    top:20%;
+    top:23%;
+    left:-2%;
     right:20%;
   }
 
