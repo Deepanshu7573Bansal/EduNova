@@ -1,0 +1,99 @@
+#Libhead {
+    font-family: Istok Web;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 100%;
+    letter-spacing: 0%;    
+    width: 331px;
+    height: 66px;
+    top: 23px;
+    left: 350px;
+    padding: 20px;
+    margin-left:50px;
+}
+
+.searchLib {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background: #FFFAFA;
+    border-radius: 8px;
+    width: 500px;
+    height: 50px;
+    margin: 10px 0;
+    margin-left: 50px;
+}
+
+.mainLibrary{
+    width: 80%;
+}
+
+.SAdd{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.textLib{
+    width: 156;
+    height: 20;
+    top: 93px;
+    left: 390px;
+    font-family: Istok Web;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #aeabab;
+}
+
+.add{
+    background: #FFFAFA;
+    border-radius: 8px;
+    width: 130px;
+    height: 50px;
+}
+
+.addText{
+    color: #aeabab;
+    font-family: Istok Web;
+    font-weight: 700;
+    font-size: 23px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.LibBody{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px;
+    background-color: #FFFAFA;
+    margin-left: 50px;
+}
+
+#bookImage{
+    width: 223px;
+    height: 310px;
+    cursor: pointer;
+}
+
+.Dimage{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 70px;
+    cursor: pointer;
+}
+
+.Bookname{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#down{
+    width: 40px;
+    height: 40px;
+}

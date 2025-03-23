@@ -1,0 +1,114 @@
+.Theading {
+    font-family: Istok Web;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 100%;
+    letter-spacing: 0%;    
+    width: 331px;
+    height: 66px;
+    top: 23px;
+    left: 350px;
+    padding: 20px;
+    margin-left:100px;
+}
+
+.Tsearch {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background: #FFFAFA;
+    border-radius: 8px;
+    width: 500px;
+    height: 50px;
+    margin: 10px 0;
+}
+
+.Ttext{
+    width: 156;
+    height: 20;
+    top: 93px;
+    left: 390px;
+    font-family: Istok Web;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #aeabab;
+}
+
+.Tsearch img {
+    width: 20px;
+    height: 20px;
+    top: 93px;
+    left: 372px;
+}
+
+.About, .Tstudent {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 12px;
+    width: 1050px;
+    margin: auto;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    overflow-y: auto; 
+    max-height: 400px; 
+}
+
+.About{
+    text-align: center;
+    height: 500px;
+    margin-top: 10px;
+}
+
+.Tstudents {
+    margin-top: 28px; 
+}
+
+.Tprofile1 {
+    width: 985px; /* Increased width */
+    height: 120px; /* Increased height */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px; /* Increased padding */
+    border-radius: 12px;
+    margin-bottom: 15px;
+    font-size: 18px; /* Slightly increased font size */
+    font-weight: bold;
+}
+
+.Tprofile1 img {
+    width: 70px; /* Increased image size */
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #fff;
+}
+
+.Tprofile1 a {
+    font-size: 16px; /* Increased link font size */
+}
+.Tprofile1 a:hover {
+    text-decoration: underline;
+}
+
+.Tprofile1:nth-child(1) {
+    background: #b2fab4; 
+}
+
+.Tprofile1:nth-child(2) {
+    background: #f7c6c6; 
+}
+
+.Tprofile1:nth-child(3) {
+    background: #d4e0ff; 
+}
+
+.Tprofile1:nth-child(4) {
+    background: #f6e6a2; 
+}
+
+.Tprofile1:nth-child(5) {
+    background: #b2fab4; 
+}

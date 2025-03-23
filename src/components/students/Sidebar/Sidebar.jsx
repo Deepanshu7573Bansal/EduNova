@@ -1,14 +1,14 @@
 import React from'react'
 import './Sidebar.css'
-import Group from '../../assets/images/Group.png'
-import Vector from '../../assets/images/Vector.png'
-import Calender from '../../assets/images/Calendar.png'
-import Library from '../../assets/images/Library.png'
-import Join from '../../assets/images/Join.png'
-import Classroom from '../../assets/images/Classroom.png'
-import Messages from '../../assets/images/Messages.png'
-import Logout from '../../assets/images/Logout.png'
-import Courses from '../../assets/images/Courses.png'
+import Group from '../../../images/students/Group.png'
+import Vector from '../../../images/students/Vector.png'
+import Calender from '../../../images/students/Calendar.png'
+import Library from '../../../images/students/Library.png'
+import Join from '../../../images/students/Join.png'
+import Classroom from '../../../images/students/Classroom.png'
+import Messages from '../../../images/students/Messages.png'
+import Logout from '../../../images/students/Logout.png'
+import Courses from '../../../images/students/Courses.png'
 import 'bootstrap/dist/css/bootstrap.min.css'
 function Sidebar() {
     return(
@@ -16,8 +16,8 @@ function Sidebar() {
             <div class="row"> 
                 <div class="col-10">
                     <div class="logo">
-                        <img src={Group} id='logo' />
-                        EduNova
+                        <img src={Group} id='heading' />
+                        <p id='head'>EduNova</p> 
                     </div>
                 </div>
                 <div className="dashborad">
@@ -57,4 +57,4 @@ function Sidebar() {
     )
 }
 
-export default Sidebar
+export default Sidebar;

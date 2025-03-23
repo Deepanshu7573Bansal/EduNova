@@ -9,6 +9,7 @@
     top: 23px;
     left: 350px;
     padding: 20px;
+    margin-left:100px;
 }
 
 .search {
@@ -18,27 +19,27 @@
     padding: 10px;
     background: #FFFAFA;
     border-radius: 8px;
-    width: 446px;
-    height: 42px;
+    width: 500px;
+    height: 50px;
     margin: 10px 0;
 }
 
 .text{
     width: 156;
-    height: 14;
+    height: 20;
     top: 93px;
     left: 390px;
     font-family: Istok Web;
     font-weight: 700;
-    font-size: 12px;
+    font-size: 18px;
     line-height: 100%;
     letter-spacing: 0%;
     color: #aeabab;
 }
 
 .search img {
-    width: 16.032499313354492;
-    height: 17.489999771118164;
+    width: 20px;
+    height: 20px;
     top: 93px;
     left: 372px;
 }
@@ -47,7 +48,7 @@
     background: #f8f9fa;
     padding: 20px;
     border-radius: 12px;
-    width: 717px;
+    width: 1050px;
     margin: auto;
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
     overflow-y: auto; 
@@ -70,49 +71,50 @@
     margin-bottom: 10px;
 }
 
-.profile {
+.profile1 {
+    width: 985px; /* Increased width */
+    height: 120px; /* Increased height */
     display: flex;
     align-items: center;
-    gap: 15px;
-    padding: 15px;
-    border-radius: 10px;
-    margin-bottom: 10px;
-    font-size: 16px;
+    gap: 20px;
+    padding: 20px; /* Increased padding */
+    border-radius: 12px;
+    margin-bottom: 15px;
+    font-size: 18px; /* Slightly increased font size */
     font-weight: bold;
 }
 
-.profile img {
-    width: 50px;
-    height: 50px;
+.profile1 img {
+    width: 70px; /* Increased image size */
+    height: 70px;
     border-radius: 50%;
     object-fit: cover;
-    border: 2px solid #fff;
+    border: 3px solid #fff;
 }
 
-.profile a {
-    display: block;
-    font-size: 14px;
-    color: #007bff;
-    text-decoration: none;
-    margin-top: 5px;
+.profile1 a {
+    font-size: 16px; /* Increased link font size */
 }
-
-.profile a:hover {
+.profile1 a:hover {
     text-decoration: underline;
 }
 
-.profile:nth-child(1) {
+.profile1:nth-child(1) {
     background: #b2fab4; 
 }
 
-.profile:nth-child(2) {
+.profile1:nth-child(2) {
     background: #f7c6c6; 
 }
 
-.profile:nth-child(3) {
+.profile1:nth-child(3) {
     background: #d4e0ff; 
 }
 
-.profile:nth-child(4) {
+.profile1:nth-child(4) {
     background: #f6e6a2; 
+}
+
+.profile1:nth-child(5) {
+    background: #b2fab4; 
 }

@@ -1,0 +1,125 @@
+.Sidebar {
+    width: 340px;
+    height: 100vh;
+    background-color: #fffafa;
+    color: #2b59ce;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    left: -3px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: black;
+    font-size: 20px;
+    width: 174px;
+    height: 54px;
+}
+
+#heading{
+    width: 108px;
+    height: 89px;
+    left: 10px;
+    top: 33px;
+    font-size: 200px;
+}
+
+#head{
+    font-size: 40px;
+    margin-top: 45px;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+}
+
+.row div {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#vector {
+    width: 28px;
+    height: 30px;
+    margin-right: 10px;
+    top: 182px;
+    left: 53px;
+}
+
+#calender {
+    width: 39px;
+    height: 44px;
+    margin-right: 10px;
+    top: 245px;
+    left: 47px;
+}
+
+#library {
+    width: 44px;
+    height: 48px;
+    margin-right: 10px;
+    top: 311px;
+    left: 45px;
+}
+
+#classroom {
+    width: 39px;
+    height: 43px;
+    margin-right: 10px;
+    top: 390px;
+    left: 48px;
+}
+
+#course {
+    width: 41px;
+    height: 29px;
+    margin-right: 10px;
+    top: 475px;
+    left: 48px;
+}
+
+#join {
+    width: 41px;
+    height: 45px;
+    margin-right: 10px;
+    top: 540px;
+    left: 49px;
+}
+
+#message {
+    width: 37px;
+    height: 37px;
+    margin-right: 10px;
+    top: 611px;
+    left: 51px;
+}
+
+#logout {
+    width: 53px;
+    height: 45px;
+    margin-right: 10px;
+    top: 676px;
+    left: 41px;
+}
+
+.row div:hover {
+    background-color: #a2c7ed;
+    border-radius: 5px;
+}
+
+.Logout {
+    margin-top: auto;
+    color: #E74C3C;
+}

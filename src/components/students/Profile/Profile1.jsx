@@ -1,8 +1,8 @@
 import React from'react'
-import './Profile.css'
+import './Profile1.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import image from '../../assets/images/profile/image.png'
-function Profile(){
+import image from '../../../images/students/profile/image.png'
+function Profile1(){
     return(
         <div className="profile">
             <img src={image} id='profileimg'/>
@@ -19,4 +19,4 @@ function Profile(){
     )
 }
 
-export default Profile;
+export default Profile1;

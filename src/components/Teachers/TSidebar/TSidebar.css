@@ -1,4 +1,4 @@
-.Sidebar {
+.TSidebar {
     width: 340px;
     height: 100vh;
     background-color: #fffafa;
@@ -11,7 +11,7 @@
     left: -3px;
 }
 
-.logo {
+.Tlogo {
     display: flex;
     align-items: center;
     font-weight: bold;
@@ -22,19 +22,25 @@
     height: 54px;
 }
 
-#logo{
+#Theading{
     width: 108px;
     height: 89px;
     left: 10px;
     top: 33px;
+    font-size: 200px;
 }
 
-.row {
+#Thead{
+    font-size: 40px;
+    margin-top: 45px;
+}
+
+.Trow {
     display: flex;
     flex-direction: column;
 }
 
-.row div {
+.Trow div {
     display: flex;
     align-items: center;
     padding: 15px;
@@ -44,7 +50,7 @@
     font-weight: bold;
 }
 
-#vector {
+#Tvector {
     width: 28px;
     height: 30px;
     margin-right: 10px;
@@ -52,7 +58,7 @@
     left: 53px;
 }
 
-#calender {
+#Tcalender {
     width: 39px;
     height: 44px;
     margin-right: 10px;
@@ -60,7 +66,7 @@
     left: 47px;
 }
 
-#library {
+#Tlibrary {
     width: 44px;
     height: 48px;
     margin-right: 10px;
@@ -68,7 +74,7 @@
     left: 45px;
 }
 
-#classroom {
+#Tclassroom {
     width: 39px;
     height: 43px;
     margin-right: 10px;
@@ -76,7 +82,7 @@
     left: 48px;
 }
 
-#course {
+#Tcourse {
     width: 41px;
     height: 29px;
     margin-right: 10px;
@@ -84,7 +90,7 @@
     left: 48px;
 }
 
-#join {
+#Tjoin {
     width: 41px;
     height: 45px;
     margin-right: 10px;
@@ -92,7 +98,7 @@
     left: 49px;
 }
 
-#message {
+#Tmessage {
     width: 37px;
     height: 37px;
     margin-right: 10px;
@@ -100,7 +106,7 @@
     left: 51px;
 }
 
-#logout {
+#Tlogout {
     width: 53px;
     height: 45px;
     margin-right: 10px;
@@ -108,12 +114,12 @@
     left: 41px;
 }
 
-.row div:hover {
+.Trow div:hover {
     background-color: #a2c7ed;
     border-radius: 5px;
 }
 
-.Logout {
-    margin-top: auto;
+.TLogout {
+    margin-top: 100px;
     color: #E74C3C;
 }

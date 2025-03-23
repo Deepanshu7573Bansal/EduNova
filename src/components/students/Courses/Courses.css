@@ -1,0 +1,130 @@
+#Chead {
+    font-family: Istok Web;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 100%;
+    letter-spacing: 0%;    
+    width: 331px;
+    height: 66px;
+    top: 23px;
+    left: 350px;
+    padding: 20px;
+    margin-left:50px;
+}
+
+.searchC {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background: #FFFAFA;
+    border-radius: 8px;
+    width: 500px;
+    height: 50px;
+    margin: 10px 0;
+    margin-left: 50px;
+}
+
+.mainCourse{
+    width: 80%;
+}
+
+.CAdd{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.textC{
+    width: 156;
+    height: 20;
+    top: 93px;
+    left: 390px;
+    font-family: Istok Web;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #aeabab;
+}
+
+.addC{
+    background: #FFFAFA;
+    border-radius: 8px;
+    width: 130px;
+    height: 50px;
+}
+
+.addTextC{
+    color: #aeabab;
+    font-family: Istok Web;
+    font-weight: 700;
+    font-size: 23px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.CBody{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px;
+    background-color: #FFFAFA;
+    margin-left: 50px;
+}
+
+#CImage{
+    width: 223px;
+    height: 310px;
+    cursor: pointer;
+}
+
+.CheadBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1200px;
+    cursor: pointer;
+}
+
+.CboxName{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.seeAll{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.CContainer{
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); 
+    border-radius: 18px; 
+    width: 400px;
+}
+
+/*iski vjh se dikkat h*/
+#CouImage{
+    width: 100%;
+}
+.Dname{
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.resume{
+    box-sizing: border-box;
+    border: 2px solid black; 
+    border-radius: 10px; 
+    padding: 10px; 
+    width: 80%; 
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
