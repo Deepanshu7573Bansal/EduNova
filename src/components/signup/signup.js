@@ -4,14 +4,14 @@ import logo from "../../assets/images/logo.png"
 import background from "../../assets/images/background.png"
 import frame from "../../assets/images/Frame.png"
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../styles/signup.css';
+import styles from './signup.module.css';
 function signup(){
     return(
-        <div class='row'>
+        <div className='row'>
             <div class='col-5 vh-1030'>
-            <div className="signup-form">
-            <div className="logo">
-            <img src={logo} alt="Logo"/> EduNova
+            <div className={styles.signup}>
+            <div className={styles.logo3}>
+            <img src={logo} alt="Logo" id="logo3"/> <h1>EduNova</h1>
             </div>
             <p>Register your details</p>
             <form>
@@ -44,7 +44,7 @@ function signup(){
                <input type="text" class="form-control" id="num" placeholder="Mobile Number" name="number"></input>
                </div>
 
-               <div class="btn">
+               <div className={styles.btn}>
                Signup
                 </div>
                 <Link to="/login">
@@ -54,9 +54,9 @@ function signup(){
             </form>
         </div>
             </div>
-        <div class="col-5 vh-1030">
-            <img src={background} alt="back" />
-            <img src={frame} alt="frame" className="overlay"/>
+        <div class="col-5">
+            <img src={background} alt="back" id={styles.back2} />
+            <img src={frame} alt="frame" className={styles.overlay2}/>
         </div>
         </div>
         

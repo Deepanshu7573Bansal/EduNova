@@ -4,13 +4,13 @@ import logo from "../../assets/images/logo.png"
 import background from "../../assets/images/background.png"
 import frame from "../../assets/images/Frame.png"
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../styles/password.css';
+import styles from  './password.module.css';
 function password(){
     return(
-        <div class='row'>
-            <div class='col-5 vh-1030'>
-            <div className="pass-form">
-            <div className="logo">
+        <div className='row'>
+            <div className='col-5 vh-1030'>
+            <div className={styles.pass}>
+            <div className={styles.logo2}>
             <img src={logo} alt="Logo"/> EduNova
             </div>
             <p>Username start with: STU_, TEA_ , AD_</p>
@@ -31,7 +31,7 @@ function password(){
                </div>
 
 
-               <div class="btn">
+               <div className={styles.btn}>
                  Change Password
                 </div>
                  <Link to="/signup">
@@ -41,8 +41,8 @@ function password(){
         </div>
             </div>
         <div class="col-5 vh-1030">
-            <img src={background} alt="back" />
-            <img src={frame} alt="frame" className="overlay"/>
+            <img src={background} alt="back4" id={styles.back4} />
+            <img src={frame} alt="frame" className={styles.overlay4}/>
         </div>
         </div>
         

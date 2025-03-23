@@ -1,0 +1,63 @@
+body{
+  background-color: #f5f4f7;
+}
+
+.login{
+  position:relative;
+  top:250px;
+  justify-content: center;
+}
+
+.login p{
+  top:10px;
+  left:-1px;
+  font-weight: 500;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+
+.login{
+  width:500px;
+  position: relative;
+  left:150px;
+  }  
+
+
+
+  .logo1{
+    display: flex;
+    position: relative;
+    top:15px;
+    left:-50px;
+    font-weight: 900;
+    font-size:45px;
+}
+  
+h1{
+  font-weight: 900;
+ }
+
+
+#back3{
+    position: relative;
+    top:-10px;
+    margin-left:200px;
+}
+
+.overlay3{
+    position: relative;
+    margin-top:-1000px;
+    left:350px;
+    background-color: transparent;
+}
+ 
+.btn{
+    background-color: #2525ad;
+    color:white;
+    text-align: center;
+    font-weight: 500;
+    width:470px;
+    height:30px;
+    cursor:pointer;
+}
+

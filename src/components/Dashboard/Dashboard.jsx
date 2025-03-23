@@ -1,5 +1,5 @@
 import React from'react'
-import '../styles/Dashboard.css'
+import './Dashboard.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Search from '../../assets/images/Search.png'
 import image1 from '../../assets/images/dashboard/image1.png'
@@ -21,12 +21,12 @@ function Dashboard(){
                     Teachers
                 </div>
                 <div className="profile">
-                    <img src={image1} id='image'/>
+                    <img src={image1} alt="image" id='image'/>
                     Shyam Nithin
                     <a href="">View Profile</a>
                 </div>
                 <div className="profile">
-                    <img src={image2} id='image' />
+                    <img src={image2}  id='image' />
                     Nivin Kumar
                     <a href="">View Profile</a>
                 </div>

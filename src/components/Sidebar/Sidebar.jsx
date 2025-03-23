@@ -1,5 +1,5 @@
 import React from'react'
-import '../styles/Sidebar.css'
+import './Sidebar.css'
 import Group from '../../assets/images/Group.png'
 import Vector from '../../assets/images/Vector.png'
 import Calender from '../../assets/images/Calendar.png'

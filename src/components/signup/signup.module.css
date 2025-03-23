@@ -2,7 +2,7 @@ body{
   background-color: #f5f4f7;
 }
 
-.signup-form p{
+.signup p{
 position: relative;
 top:10px;
 left:-1%;
@@ -11,29 +11,47 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
 
 }
 
-.signup-form{
+.signup{
     position:relative;
     top:15%;
     left:10%;
     width:500px;
 }
 
-#Logo{
-width:150px;
-height:156px;
+
+#logo3{
+    width:150px;
 }
 
-.logo{
-    font-weight: 900;
-    font-size:45px;
-}
+  
+.logo3{
+      display: flex;
+      position: relative;
+      left:-25px;
+      font-weight: 900;
+      font-size:45px;
+  }
 
-.overlay{
+  h1{
     position: relative;
-    background-color: transparent;
-    margin-top:-150%;
-    left:25%;
+    top:50px;
+    left:35px;
+
+  }
+
+#back2{
+    position: relative;
+    top:-10px;
+    margin-left:200px;
 }
+
+.overlay2{
+    position: relative;
+    margin-top:-1000px;
+    left:350px;
+    background-color: transparent;
+}
+
 
 
 .btn{
@@ -44,8 +62,4 @@ height:156px;
     width:470px;
 }
 
-.btn:hover{
-    background-color: #9b9bf3;
-    color:white;
-}
 

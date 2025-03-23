@@ -1,5 +1,5 @@
 import React from'react'
-import '../styles/Profile.css'
+import './Profile.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import image from '../../assets/images/profile/image.png'
 function Profile(){

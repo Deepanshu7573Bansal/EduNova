@@ -4,14 +4,14 @@ import logo from "../../assets/images/logo.png"
 import background from "../../assets/images/background.png"
 import frame from "../../assets/images/Frame.png"
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../styles/login.css';
+import styles from  './login.module.css';
 function login(){
     return(
-        <div class='row'>
-            <div class='col-5'>
-            <div className="login-form">
-            <div className="logo">
-            <img src={logo} alt="Logo"/> EduNova
+        <div className='row'>
+            <div className='col-5'>
+            <div className={styles.login}>
+            <div className={styles.logo1}>
+            <img src={logo} alt="Logo"/> <h1>EduNova</h1>
             </div>
             <p>Username start with: STU_, TEA_ , AD_</p>
             <form>
@@ -26,7 +26,7 @@ function login(){
                </div>
 
 
-               <div class="btn">
+               <div className={styles.btn}>
                  Login
                 </div>
                 <Link to="/password">
@@ -36,9 +36,9 @@ function login(){
             </form>
         </div>
             </div>
-        <div class="col-5 vh-1030">
-            <img src={background} alt="back" />
-            <img src={frame} alt="frame" className="overlay"/>
+        <div class="col-5">
+            <img src={background} alt="back" id={styles.back3} />
+            <img src={frame} alt="frame" className={styles.overlay3}/>
         </div>
         </div>
         
