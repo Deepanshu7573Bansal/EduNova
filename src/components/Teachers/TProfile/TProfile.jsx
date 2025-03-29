@@ -1,7 +1,7 @@
 import React from'react'
 import './TProfile.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import image from '../../../images/teachers/TProfile/image.png'
+import image from '../../../assets/images/teachers/TProfile/image.png'
 function TProfile(){
     return(
         <div className="Tprofile">

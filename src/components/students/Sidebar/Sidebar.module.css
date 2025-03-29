@@ -1,5 +1,5 @@
 .Sidebar {
-    width: 340px;
+    width: 350px;
     height: 100vh;
     background-color: #fffafa;
     color: #2b59ce;
@@ -16,13 +16,14 @@
     align-items: center;
     font-weight: bold;
     margin-bottom: 20px;
+    margin-left:-35px;
     color: black;
     font-size: 20px;
     width: 174px;
     height: 54px;
 }
 
-#heading{
+.heading{
     width: 108px;
     height: 89px;
     left: 10px;

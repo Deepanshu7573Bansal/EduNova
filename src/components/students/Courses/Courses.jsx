@@ -1,12 +1,12 @@
 import '../Courses/Courses.css'
-import image35 from '../../../images/students/courses/image35.png'
-import image36 from '../../../images/students/courses/image36.png'
-import image37 from '../../../images/students/courses/image37.png'
-import image38 from '../../../images/students/courses/image38.png'
-import image39 from '../../../images/students/courses/image39.png'
-import image40 from '../../../images/students/courses/image40.png'
-import image41 from '../../../images/students/courses/image41.png'
-import squareC from '../../../images/students/courses/squareC.png'
+import image35 from '../../../assets/images/students/courses/image35.png'
+import image36 from '../../../assets/images/students/courses/image36.png'
+import image37 from '../../../assets/images/students/courses/image37.png'
+import image38 from '../../../assets/images/students/courses/image38.png'
+import image39 from '../../../assets/images/students/courses/image39.png'
+import image40 from '../../../assets/images/students/courses/image40.png'
+import image41 from '../../../assets/images/students/courses/image41.png'
+import squareC from '../../../assets/images/students/courses/squareC.png'
 function Courses(){
     return(
         <div className="mainCourse">

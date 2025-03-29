@@ -1,0 +1,110 @@
+.calender{
+  
+  margin-left: 250px;
+  margin-top: 50px;
+}
+
+.searchWrapper {
+  position: relative;
+  width: 100%;
+  max-width: 300px; /* Adjust width as needed */
+}
+
+.searchInput {
+  width: 100%;
+  padding: 10px 40px 10px 15px; /* Right padding for icon space */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+}
+
+.searchIcon {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 16px;
+  width: 16px;
+  pointer-events: none; /* Allows clicking through the icon */
+}
+
+
+
+.calendarContainer {
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.calendarHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  
+}
+
+.calendarHeader h1{
+  top:-10px;
+  left:-10px;
+  font-size: 24px;
+  color: #333;
+}
+
+
+
+.calendarTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.calendarTable th {
+  padding: 10px;
+  text-align: center;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+}
+
+.calendarTable td {
+  height: 80px;
+  vertical-align: top;
+  padding: 5px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.calendarDay {
+  position: relative;
+}
+
+.calendarDay:hover {
+  background-color: #f9f9f9;
+}
+
+.calendarDay.active {
+  background-color: #e6f2ff;
+}
+
+.dayNumber {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.eventIndicator {
+  font-size: 12px;
+  color: #fff;
+  background-color: #4a90e2;
+  padding: 2px 5px;
+  border-radius: 3px;
+  margin-top: 3px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.events{
+  margin-left:280px;
+  margin-top:-690px;
+}

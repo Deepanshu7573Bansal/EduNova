@@ -1,7 +1,7 @@
 import React from'react'
 import './Profile1.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import image from '../../../images/students/profile/image.png'
+import image from '../../../assets/images/students/profile/image.png'
 function Profile1(){
     return(
         <div className="profile">

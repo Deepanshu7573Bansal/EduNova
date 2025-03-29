@@ -1,8 +1,8 @@
 import '../Circulars/Circulars.css'
-import image18 from '../../../images/students/circulars/image18.png' 
-import image19 from '../../../images/students/circulars/image19.png'
-import image22 from '../../../images/students/circulars/image23.png'
-import image23 from '../../../images/students/circulars/image23.png'
+import image18 from '../../../assets/images/students/circulars/image18.png' 
+import image19 from '../../../assets/images/students/circulars/image19.png'
+import image22 from '../../../assets/images/students/circulars/image22.png'
+import image23 from '../../../assets/images/students/circulars/image23.png'
 function Circulars(){
     return(
         <div className="CircularMain">    
