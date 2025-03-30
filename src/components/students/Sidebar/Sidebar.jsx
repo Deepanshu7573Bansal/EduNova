@@ -72,11 +72,13 @@ function Sidebar() {
                     Messages
                 </div>
                </Link>
-               
-                <div className="Logout" style={{textDecoration:'none', color:'red'}}>
+               <Link to="/" style={{textDecoration:'none', color:'red'}}>
+               <div className="Logout">
                     <img src={Logout} id='logout'/>
                     Log out
                 </div>
+               </Link>
+                
             </div>
         </div>
     )

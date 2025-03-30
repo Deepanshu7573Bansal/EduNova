@@ -182,7 +182,6 @@ const Messages = () => {
             <>
               <div className={styles.chatHeader}>
                 <h2>{activeChat.name}</h2>
-                <p className={styles.role}>{activeChat.role}</p>
               </div>
               <div className={styles.messages}>
                 {activeChat.messages.map((msg, index) => (
