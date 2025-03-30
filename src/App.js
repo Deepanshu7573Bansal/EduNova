@@ -31,10 +31,10 @@ function App() {
     <Router>
       <Routes>
         {/* Public Routes */}
-        {/* <Route path="/" element={<Starter />} />
+        <Route path="/" element={<Starter />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/login" element={<Login setUserType={setUserType} setIsLoggedIn={setIsLoggedIn} />} />
-        <Route path="/password" element={<Password />} /> */}
+        <Route path="/password" element={<Password />} />
 
         {/* Student Routes */}
         <Route 

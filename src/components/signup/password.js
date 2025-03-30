@@ -2,7 +2,6 @@ import React from "react";
 import {Link} from "react-router-dom";
 import logo from "../../assets/images/logo.png"
 import background from "../../assets/images/background.png"
-import frame from "../../assets/images/Frame.png"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import styles from  './password.module.css';
 function password(){
@@ -40,9 +39,8 @@ function password(){
             </form>
         </div>
             </div>
-        <div class="col-5 vh-1030">
+        <div className={styles.back}>
             <img src={background} alt="back4" id={styles.back4} />
-            <img src={frame} alt="frame" className={styles.overlay4}/>
         </div>
         </div>
         
