@@ -19,31 +19,31 @@ function Sidebar() {
                 <div class="col-10">
                     <div className={styles.logo}>
                         <img src={Group} id={styles.heading} />
-                        <p id='head'>EduNova</p> 
+                        <p className={styles.heading}>EduNova</p> 
                     </div>
                 </div>
-                <Link to="/student/dashboard">
-                <div className="dashborad">
+                <Link to="/student/dashboard" style={{textDecoration:'none', color:'black'}}>
+                <div className="dashboard">
                     <img src={Vector} id='vector'/>
                     Dashboard
                 </div>
                 </Link>
                
-                <Link to="/student/calendar">
+                <Link to="/student/calendar" style={{textDecoration:'none', color:'black'}}>
                 <div className="Calender">
                     <img src={Calender} id='calender'/>
                     Calender
                 </div>
                 </Link>
                
-               <Link to="/student/library">
+               <Link to="/student/library" style={{textDecoration:'none', color:'black'}}>
                <div className="Library">
                     <img src={Library} id='library'/>
                     Library
                 </div>
                </Link>
                 
-                <Link to="/student/classroom">
+                <Link to="/student/classroom" style={{textDecoration:'none', color:'black'}}>
                 <div className="Classroom">
                     <img src={Classroom} id='classroom'/>
                     Classroom
@@ -51,14 +51,14 @@ function Sidebar() {
                 </Link>
                 
 
-                <Link to="/student/courses">
+                <Link to="/student/courses" style={{textDecoration:'none', color:'black'}}>
                 <div className="Courses">
                     <img src={Courses} id='course'/>
                     Courses
                 </div>
                 </Link>
                 
-                <Link to="/student/circulars">
+                <Link to="/student/circulars" style={{textDecoration:'none', color:'black'}}>
                 <div className="Join">
                     <img src={Join} id='join'/>
                     Integration
@@ -66,14 +66,14 @@ function Sidebar() {
                 </Link>
                
 
-               <Link to="/student/messages">
+               <Link to="/student/messages" style={{textDecoration:'none', color:'black'}}>
                <div className="Messages">
                     <img src={Messages} id='message'/>
                     Messages
                 </div>
                </Link>
                
-                <div className="Logout">
+                <div className="Logout" style={{textDecoration:'none', color:'red'}}>
                     <img src={Logout} id='logout'/>
                     Log out
                 </div>

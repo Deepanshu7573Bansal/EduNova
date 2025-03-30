@@ -6,6 +6,7 @@ import image1 from '../../../assets/images/dashboard/image1.png'
 import image2 from '../../../assets/images/dashboard/image2.png'
 import image3 from '../../../assets/images/dashboard/image3.png'
 import image4 from '../../../assets/images/dashboard/image4.png'
+import Profile from "../../students/Profile/Profile1";
 function Dashboard(){
     return (
         <div className="heading">
@@ -66,7 +67,10 @@ function Dashboard(){
                     Rudhra Shankar
                     <a href="">View Profile</a>
                 </div>
-            </div>    
+            </div>   
+            <div className="comp">
+                <Profile></Profile>
+                </div> 
         </div>
     )
 }
