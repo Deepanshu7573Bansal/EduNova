@@ -1,6 +1,5 @@
 .calender{
-  
-  margin-left: 250px;
+  margin-left:50px;
   margin-top: 50px;
 }
 
@@ -105,6 +104,7 @@
 }
 
 .events{
-  margin-left:280px;
+  position: relative;
+  left:650px;
   margin-top:-690px;
 }

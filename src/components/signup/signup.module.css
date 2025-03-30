@@ -1,5 +1,5 @@
 body{
-  background-color: #f5f4f7;
+    background-color: #fffafa;
 }
 
 .signup p{
@@ -39,18 +39,14 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
 
   }
 
-#back2{
-    position: relative;
-    top:-10px;
-    margin-left:200px;
-}
-
-.overlay2{
-    position: relative;
-    margin-top:-1000px;
-    left:350px;
-    background-color: transparent;
-}
+  .back{
+    display: flex;
+    flex-direction: column;
+    left:-3px;
+    height:100vh;
+    width:850px;
+    margin-left:265px;
+   }
 
 
 

@@ -10,6 +10,7 @@ import Dashboard from './components/students/Dashboard/Dashboard.jsx';
 import Profile1 from './components/students/Profile/Profile1.jsx';
 import Library from './components/students/Library/Library.jsx';
 import Courses from './components/students/Courses/Courses.jsx';
+import Classroom from './components/students/Classroom/Classroom.jsx';
 import Circulars from './components/students/Circulars/Circulars.jsx';
 
 // Teacher Components
@@ -31,10 +32,10 @@ function App() {
     <Router>
       <Routes>
         {/* Public Routes */}
-        {/* <Route path="/" element={<Starter />} />
+        <Route path="/" element={<Starter />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/login" element={<Login setUserType={setUserType} setIsLoggedIn={setIsLoggedIn} />} />
-        <Route path="/password" element={<Password />} /> */}
+        <Route path="/password" element={<Password />} />
 
         {/* Student Routes */}
         <Route 
@@ -49,6 +50,7 @@ function App() {
                 <Route path="search" element={<Search />} />
                 <Route path="profile" element={<Profile1 />} />
                 <Route path="library" element={<Library />} />
+                <Route path="classroom" element={<Classroom />} />
                 <Route path="courses" element={<Courses />} />
                 <Route path="circulars" element={<Circulars />} />
               </Routes>

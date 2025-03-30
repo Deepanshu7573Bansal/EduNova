@@ -9,7 +9,7 @@
     top: 23px;
     left: 350px;
     padding: 20px;
-    margin-left:50px;
+    margin-left:-320px;
 }
 
 .searchLib {
@@ -88,10 +88,10 @@
     cursor: pointer;
 }
 
-.Bookname{
+/* .Bookname{
     font-size: 20px;
     font-weight: 700;
-}
+} */
 
 #down{
     width: 40px;

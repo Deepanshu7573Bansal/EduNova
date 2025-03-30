@@ -2,7 +2,6 @@ import React from "react";
 import {Link} from "react-router-dom";
 import logo from "../../assets/images/logo.png"
 import background from "../../assets/images/background.png"
-import frame from "../../assets/images/Frame.png"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import styles from  './login.module.css';
 function login(){
@@ -25,10 +24,11 @@ function login(){
                <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd"></input>
                </div>
 
-
+               <Link to="/student/dashboard" styles={{ textDecoration: "none", color:"black" }}>
                <div className={styles.btn}>
                  Login
                 </div>
+                </Link>
                 <Link to="/password">
                 <p id="pass">Forgot Password?</p>
                 </Link>
@@ -36,9 +36,8 @@ function login(){
             </form>
         </div>
             </div>
-        <div class="col-5">
+        <div className={styles.back}>
             <img src={background} alt="back" id={styles.back3} />
-            <img src={frame} alt="frame" className={styles.overlay3}/>
         </div>
         </div>
         

@@ -9,7 +9,15 @@
     top: 23px;
     left: 350px;
     padding: 20px;
-    margin-left:100px;
+    margin-left:50px;
+}
+
+.comp{
+    position:relative;
+    top:-830px;
+    margin-left:200px;
+    width:100%;
+
 }
 
 .search {

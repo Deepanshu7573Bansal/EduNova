@@ -28,7 +28,7 @@
     height: 89px;
     left: 10px;
     top: 33px;
-    font-size: 200px;
+    font-size:25px;
 }
 
 #head{
@@ -49,20 +49,20 @@
     transition: background 0.3s;
     font-size: 18px;
     font-weight: bold;
+    text-decoration: none;
 }
 
 #vector {
     width: 28px;
     height: 30px;
-    margin-right: 10px;
     top: 182px;
-    left: 53px;
+    left: 50px;
 }
 
 #calender {
     width: 39px;
     height: 44px;
-    margin-right: 10px;
+    padding:10px;
     top: 245px;
     left: 47px;
 }
@@ -70,7 +70,7 @@
 #library {
     width: 44px;
     height: 48px;
-    margin-right: 10px;
+    padding:10px;
     top: 311px;
     left: 45px;
 }
@@ -78,7 +78,7 @@
 #classroom {
     width: 39px;
     height: 43px;
-    margin-right: 10px;
+    padding:10px;
     top: 390px;
     left: 48px;
 }
@@ -86,7 +86,7 @@
 #course {
     width: 41px;
     height: 29px;
-    margin-right: 10px;
+    padding:10px;
     top: 475px;
     left: 48px;
 }
@@ -94,7 +94,7 @@
 #join {
     width: 41px;
     height: 45px;
-    margin-right: 10px;
+    padding:10px;
     top: 540px;
     left: 49px;
 }
@@ -102,7 +102,7 @@
 #message {
     width: 37px;
     height: 37px;
-    margin-right: 10px;
+    padding:10px;
     top: 611px;
     left: 51px;
 }
@@ -110,7 +110,7 @@
 #logout {
     width: 53px;
     height: 45px;
-    margin-right: 10px;
+    padding:10px;
     top: 676px;
     left: 41px;
 }

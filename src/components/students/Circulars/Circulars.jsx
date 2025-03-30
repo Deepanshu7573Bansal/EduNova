@@ -10,27 +10,19 @@ function Circulars(){
             <div className="CirBody">
                 <div className="CirContainer">
                     <img src={image18} id="CirImage" alt="" />
-                    <p id='CirName'>
-                        Google Doc
-                    </p>
+                    Google Doc
                 </div>
                 <div className="CirContainer">
                     <img src={image23} id="CirImage" alt="" />
-                    <p id='CirName'>
-                        Excel
-                    </p>
+                    Excel
                 </div>
                 <div className="CirContainer">
                     <img src={image19} id="CirImage" alt="" />
-                    <p id='CirName'>
-                        Word
-                    </p>
+                    Word
                 </div>
                 <div className="CirContainer">
                     <img src={image22} id="CirImage" alt="" />
-                    <p id='CirName'>
-                        Power point
-                    </p>
+                    Powerpoint
                 </div>
             </div>
         </div>

@@ -2,7 +2,6 @@ import React from "react";
 import {Link} from "react-router-dom";
 import logo from "../../assets/images/logo.png"
 import background from "../../assets/images/background.png"
-import frame from "../../assets/images/Frame.png"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import styles from "./home.module.css";
 function home(){
@@ -44,9 +43,8 @@ function home(){
             </Link>
            
         </div>
-        <div class="col-5">
+        <div className={styles.back}>
             <img src={background} alt="back1" id={styles.back1}/>
-            <img src={frame} alt="frame" className={styles.overlay1}/>
         </div>
     </div>  
     )

@@ -1,5 +1,5 @@
 body{
-  background-color: #f5f4f7;
+  background-color: #fffafa;
 }
 
 .login{
@@ -38,18 +38,16 @@ h1{
  }
 
 
-#back3{
-    position: relative;
-    top:-10px;
-    margin-left:200px;
-}
+ .back{
+  display: flex;
+  flex-direction: column;
+  left:-3px;
+  height:100vh;
+  width:850px;
+  margin-left:265px;
+ }
 
-.overlay3{
-    position: relative;
-    margin-top:-1000px;
-    left:350px;
-    background-color: transparent;
-}
+
  
 .btn{
     background-color: #2525ad;

@@ -1,19 +1,15 @@
 body{
-  background-color: #f5f4f7;
+  background-color: #fffafa;
 }
 
 
-#back1{
-  position: relative;
-  top:-10px;
-  margin-left:200px;
-}
-
-.overlay1{
-  position: relative;
-  margin-top:-1000px;
-  left:350px;
-  background-color: transparent;
+.back{
+ display: flex;
+ flex-direction: column;
+ left:-3px;
+ height:100vh;
+ width:850px;
+ margin-left:265px;
 }
 
 
@@ -32,9 +28,6 @@ h1{
     font-weight: 900;
     font-size:45px;
 }
-
-
-
 
 .btn1, .btn2, .btn3{
     position: relative;

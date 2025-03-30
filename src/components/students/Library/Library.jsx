@@ -21,84 +21,84 @@ function Library(){
                     Search 
                     </div>
                 </div>
-                <div className="add">
+                {/* <div className="add">
                         <p className="addText">
                         Add Book 
                         </p>
-                </div>
-                <div className="addImage">
+                </div> */}
+                {/* <div className="addImage">
                     <img src={square} alt="" />
-                </div>
+                </div> */}
             </div>
             
             <div className="LibBody">
                 <div className="book">
                     <img src={image47} id = "bookImage" alt="" />
                     <div className="Dimage">
-                        <p className="Bookname">Chemistry</p>
+                        {/* <p className="Bookname">Chemistry</p> */}
                         <img src={Download} id="down" alt="" /> 
                     </div>
                 </div>
                 <div className="book">
                     <img src={image48} id = "bookImage" alt="" />
                     <div className="Dimage">
-                        <p className="Bookname">Chemistry</p>
+                        {/* <p className="Bookname">Chemistry</p> */}
                         <img src={Download} id="down" alt="" /> 
                     </div>
                 </div>
                 <div className="book">
                     <img src={image49} id = "bookImage" alt="" />
                     <div className="Dimage">
-                        <p className="Bookname">Mathematics</p>
+                        {/* <p className="Bookname">Mathematics</p> */}
                         <img src={Download} id="down" alt="" /> 
                     </div>
                 </div>
                 <div className="book">
                     <img src={image50} id = "bookImage" alt="" />
                     <div className="Dimage">
-                        <p className="Bookname">Mathematics</p>
+                        {/* <p className="Bookname">Mathematics</p> */}
                         <img src={Download} id="down" alt="" /> 
                     </div>
                 </div>
                 <div className="book">
                     <img src={image51} id = "bookImage" alt="" />
                     <div className="Dimage">
-                        <p className="Bookname">Physics</p>
+                        {/* <p className="Bookname">Physics</p> */}
                         <img src={Download} id="down" alt="" /> 
                     </div>
                 </div>
                 <div className="book">
                     <img src={image52} id = "bookImage" alt="" />
                     <div className="Dimage">
-                        <p className="Bookname">Physics</p>
+                        {/* <p className="Bookname">Physics</p> */}
                         <img src={Download} id="down" alt="" /> 
                     </div>
                 </div>
                 <div className="book">
                     <img src={image53} id = "bookImage" alt="" />
                     <div className="Dimage">
-                        <p className="Bookname">English</p>
+                        {/* <p className="Bookname">English</p> */}
                         <img src={Download} id="down" alt="" /> 
                     </div>
                 </div>
                 <div className="book">
                     <img src={image54} id = "bookImage" alt="" />
                     <div className="Dimage">
-                        <p className="Bookname">English</p>
+                        {/* <p className="Bookname">English</p> */}
                         <img src={Download} id="down" alt="" /> 
                     </div>
                 </div>
                 <div className="book">
                     <img src={image53} id = "bookImage" alt="" />
                     <div className="Dimage">
-                        <p className="Bookname">English</p>
+                        {/* <p className="Bookname">English</p> */}
                         <img src={Download} id="down" alt="" /> 
                     </div>
                 </div>
                 <div className="book">
                     <img src={image52} id = "bookImage" alt="" />
                     <div className="Dimage">
-                        <p className="Bookname">Physics</p>
+                        {/* <p className="Bookname">Physics</p> */}
                         <img src={Download} id="down" alt="" /> 
                     </div>
                 </div>

@@ -10,7 +10,7 @@ import squareC from '../../../assets/images/students/courses/squareC.png'
 function Courses(){
     return(
         <div className="mainCourse">
-            <p id='Chead'>Courses</p>
+            <p id='Chead'>Classroom</p>
             <div className="CAdd">
                 <div class="searchC">
                     <img src={image41} id= "search" alt="" />
@@ -28,16 +28,7 @@ function Courses(){
                 </div> */}
             </div>
             
-            <div className="CBody"> 
-                <div className="CheadBox">
-                    <div className="CboxName">
-                        All Courses (12)
-                    </div>
-                    <div className="seeAll">
-                        See all
-                    </div>
-                </div>
-                
+            <div className="CBody">
                 <div className="CContainer">
                     <img src={image35} id = "CouImage" alt="" />
                     <div className="Dname">
@@ -67,7 +58,6 @@ function Courses(){
                         Resume
                     </div>
                 </div>
-
                 <div className="CContainer">
                     <img src={image40} id = "CouImage" alt="" />
                     <div className="Dname">
